@@ -1,4 +1,4 @@
-# 참고한 글
+# 참고한 문서
 # https://dojang.io/mod/page/view.php?id=2286
 
 """
