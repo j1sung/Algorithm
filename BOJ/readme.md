@@ -1,1 +1,2 @@
-# 💻BOJ-Problem-Solving
+# 💻BOJ-Algorithm-Solving
+Use `C++`, `Python`
