@@ -1,3 +1,9 @@
+/*
+author : Ahn Ji Sung
+github : https://github.com/j1sung
+title : 나머지
+description : 수학,사칙연산
+*/
 #include <iostream>
 using namespace std;
 

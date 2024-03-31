@@ -1,11 +1,17 @@
 /*
+author : Ahn Ji Sung
+github : https://github.com/j1sung
+title : 최소, 최대
+description : 수학,구현
+*/
+/*
 #1. 배열 / sort()
 #include <iostream>
 #include <algorithm>
 using namespace std;
 
 int main(){
-    int N, min_n, max_n = 0; // 입력 N의 범위, 1<=N<=1000000
+    int N=0, min_n=0, max_n=0; // 입력 N의 범위, 1<=N<=1000000
     cin>>N; // 한 줄을 읽게 바꿔보자 getline()
     
     int arr[N]; // 문제가 됨!!
@@ -31,7 +37,7 @@ int main(){
 using namespace std;
 
 int main() {
-    int N;
+    int N=0;
     cin >> N;
 
     vector<int> arr(N);
@@ -86,7 +92,7 @@ int main() {
 using namespace std;
 
 int main(){
-    int N, min_n, max_n = 0; // 입력 N의 범위, 1<=N<=1000000
+    int N=0, min_n=0, max_n = 0; // 입력 N의 범위, 1<=N<=1000000
     cin>>N; // 한 줄을 읽게 바꿔보자 getline()
     //vector<int> v(n); 벡터 사용해보기
     int arr[N];
@@ -139,3 +145,4 @@ int main(){
 
     return 0;
 }
+

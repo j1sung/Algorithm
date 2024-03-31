@@ -1,3 +1,9 @@
+/*
+author : Ahn Ji Sung
+github : https://github.com/j1sung
+title : 평균
+description : 수학, 사칙연산
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -5,7 +11,7 @@ using namespace std;
 
 int main(){
     int N=0; // 크기는 정수값만 가능
-    float sum, avg=0; //실제 정답과 출력값의 절대오차 또는 상대오차가 10^2 이하이면 정답이므로 정밀도 6~7을 갖는 float를 써도 ㄱㅊ을듯!
+    float sum=0, avg=0; //실제 정답과 출력값의 절대오차 또는 상대오차가 10^2 이하이면 정답이므로 정밀도 6~7을 갖는 float를 써도 ㄱㅊ을듯!
     
     cin>>N; // 1<=N<=1000
     vector<float> v(N); // 크기 N 벡터 생성

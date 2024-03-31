@@ -1,3 +1,9 @@
+/*
+author : Ahn Ji Sung
+github : https://github.com/j1sung
+title : 구구단
+description : 수학,구현
+*/
 #include <iostream>
 using namespace std;
 
