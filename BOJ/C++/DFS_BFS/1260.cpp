@@ -1,8 +1,9 @@
-// <����>
-// �ð�����: 2��
-// �޸� ����: 128MB
+// <조건>
+// 시간 제한: 2초
+// 메모리 제한: 128MB
 
 #include <iostream>
+#include <algorithm>
 #include <vector>
 #include <queue>
 
@@ -59,18 +60,18 @@ int main()
 	{
 		cin >> a >> b;
 		v[a].push_back(b);
+		v[b].push_back(a);
 	}
-	/*
-	for (int i = 0; i < 1001; i++)
-		{
-			for (int j = 0; j < v[i].size(); j++)
-			{
-				cout << v[i][j] << ' ';
-			}
-		}
-	*/
+	for (int i = 0; i <= N; i++)
+	{
+		sort(v[i].begin(), v[i].end());
+	}
 
 	dfs(V);
+	for (int i = 0; i <= N; i++)
+	{
+		visited[i] = false;
+	}
 	cout << endl;
 
 	bfs(V);
