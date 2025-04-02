@@ -7,8 +7,8 @@
 
 using namespace std;
 
-vector<int> v[51];
-bool visited[2501];
+// vector<int> v[51];
+// bool visited[2501];
 
 int main()
 {
@@ -17,6 +17,17 @@ int main()
 
     for (int i = 0; i < T; i++)
     {
+        int N, M, K;
+        cin >> N >> M >> K;
+        vector<int> v[N];
+        bool visited[N * M];
+
+        int X, Y;
+        for (int j = 0; j < K; j++)
+        {
+            cin >> X >> Y;
+            v[X].push_back(Y);
+        }
     }
     return 0;
 }
